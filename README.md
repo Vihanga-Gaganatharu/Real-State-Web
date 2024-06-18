@@ -8,9 +8,11 @@
 
   <h2 align="center">Homeverse - Real estate website</h2>
 
-  Homeverse is fully responsive Real estate website, <br />Responsive for all devices, built using HTML, CSS, and JavaScript.
+  Rezilla  is fully responsive Real estate website, <br />Responsive for all devices, built using HTML, CSS, and JavaScript.
 
-  <a href="https://codewithsadee.github.io/homeverse/"><strong>➥ Live Demo</strong></a>
+  <a href="#"><strong>➥ Live Demo</strong></a>
+
+
 
 </div>
 
@@ -18,35 +20,36 @@
 
 ### Demo Screeshots
 
-![homeverse Desktop Demo](./readme-images/desktop.png "Desktop Demo")
-![homeverse Mobile Demo](./readme-images/mobile.png "Mobile Demo")
-
 ### Prerequisites
 
 Before you begin, ensure you have met the following requirements:
 
-* [Git](https://git-scm.com/downloads "Download Git") must be installed on your operating system.
-
-### Run Locally
-
-To run **Homeverse** locally, run this command on your git bash:
-
-Linux and macOS:
-
 ```bash
-sudo git clone https://github.com/codewithsadee/homeverse.git
-```
-
-Windows:
-
-```bash
-git clone https://github.com/codewithsadee/homeverse.git
+git clone https://github.com/Vihanga-Gaganatharu/Real-State-Web.git
 ```
 
 ### Contact
 
-If you want to contact with me you can reach me at [Twitter](https://www.twitter.com/codewithsadee).
+If you want to contact with me you can reach me at [Linkdin](https://www.linkedin.com/in/vihanga-gaganatharu-b21676281/).
 
-### License
+## License
 
-This project is **free to use** and does not contains any license.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+---
+
+MIT License
+-----------
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF 
