@@ -966,7 +966,7 @@ button, a { transition: var(--transition); }
 
 
 /*-----------------------------------*\
-  #CTA
+  #CONTACT
 \*-----------------------------------*/
 
 .cta {
@@ -977,6 +977,7 @@ button, a { transition: var(--transition); }
   background: var(--orange-soda);
   padding: 50px 25px;
   box-shadow: var(--shadow-2);
+  border-radius: 50px;
 }
 
 .cta-card .card-content {
