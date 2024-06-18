@@ -1,44 +1,51 @@
+'use strict';
 
-const body = document.querySelector("body"),
-      nav = document.querySelector("nav"),
-      modeToggle = document.querySelector(".dark-light"),
-      searchToggle = document.querySelector(".searchToggle"),
-      sidebarOpen = document.querySelector(".sidebarOpen"),
-      siderbarClose = document.querySelector(".siderbarClose");
+/**
+ * element toggle function
+ */
 
-      let getMode = localStorage.getItem("mode");
-          if(getMode && getMode === "dark-mode"){
-            body.classList.add("dark");
-          }
+const elemToggleFunc = function (elem) { elem.classList.toggle("active"); }
 
-// js code to toggle dark and light mode
-      modeToggle.addEventListener("click" , () =>{
-        modeToggle.classList.toggle("active");
-        body.classList.toggle("dark");
 
-        // js code to keep user selected mode even page refresh or file reopen
-        if(!body.classList.contains("dark")){
-            localStorage.setItem("mode" , "light-mode");
-        }else{
-            localStorage.setItem("mode" , "dark-mode");
-        }
-      });
 
-// js code to toggle search box
-        searchToggle.addEventListener("click" , () =>{
-        searchToggle.classList.toggle("active");
-      });
- 
-      
-//   js code to toggle sidebar
-sidebarOpen.addEventListener("click" , () =>{
-    nav.classList.add("active");
-});
+/**
+ * navbar toggle
+ */
 
-body.addEventListener("click" , e =>{
-    let clickedElm = e.target;
+const navbar = document.querySelector("[data-navbar]");
+const overlay = document.querySelector("[data-overlay]");
+const navCloseBtn = document.querySelector("[data-nav-close-btn]");
+const navOpenBtn = document.querySelector("[data-nav-open-btn]");
+const navbarLinks = document.querySelectorAll("[data-nav-link]");
 
-    if(!clickedElm.classList.contains("sidebarOpen") && !clickedElm.classList.contains("menu")){
-        nav.classList.remove("active");
-    }
-});
+const navElemArr = [overlay, navCloseBtn, navOpenBtn];
+
+/**
+ * close navbar when click on any navbar link
+ */
+
+for (let i = 0; i < navbarLinks.length; i++) { navElemArr.push(navbarLinks[i]); }
+
+/**
+ * addd event on all elements for toggling navbar
+ */
+
+for (let i = 0; i < navElemArr.length; i++) {
+  navElemArr[i].addEventListener("click", function () {
+    elemToggleFunc(navbar);
+    elemToggleFunc(overlay);
+  });
+}
+
+
+
+/**
+ * header active state
+ */
+
+const header = document.querySelector("[data-header]");
+
+window.addEventListener("scroll", function () {
+  window.scrollY >= 400 ? header.classList.add("active")
+    : header.classList.remove("active");
+}); 
