@@ -1,7 +1,4 @@
 <div align="center">
-  
-  ![GitHub Repositry Link](https://github.com/Vihanga-Gaganatharu/Real-State-Web.git)
-  <br />
   <br />
   
 ![Alt Text](/assets/logo.png)
