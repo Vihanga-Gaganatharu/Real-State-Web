@@ -1,24 +1,21 @@
 <div align="center">
   
-  ![GitHub repo](https://github.com/Vihanga-Gaganatharu/Real-State-Web.git)
+  ![GitHub Repositry Link](https://github.com/Vihanga-Gaganatharu/Real-State-Web.git)
   <br />
   <br />
   
-  <img src="./readme-images/project-logo.png" />
+![Alt Text](/assets/logo.png)
 
-  <h2 align="center">Homeverse - Real estate website</h2>
+
+  <h2 align="center">Rezilla - Real estate website</h2>
 
   Rezilla  is fully responsive Real estate website, <br />Responsive for all devices, built using HTML, CSS, and JavaScript.
 
-  <a href="#"><strong>➥ Live Demo</strong></a>
+  <a href="https://vihanga-gaganatharu.github.io/Real-State-Web/"><strong>➥ Live Demo</strong></a>
 
 
 
 </div>
-
-<br />
-
-### Demo Screeshots
 
 ### Prerequisites
 
